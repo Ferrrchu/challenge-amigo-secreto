@@ -16,3 +16,13 @@ function agregarAmigo() {
         };
     };
 };
+
+function actualizarListaAmigos() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+    for (let i = 0; i < listaAmigos.length; i++) {
+        let nuevoElementoLista = document.createElement('li');
+        nuevoElementoLista.innerHTML = listaAmigos[i];
+        lista.appendChild(nuevoElementoLista);
+    };
+};
