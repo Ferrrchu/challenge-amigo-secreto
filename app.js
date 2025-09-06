@@ -26,3 +26,14 @@ function actualizarListaAmigos() {
         lista.appendChild(nuevoElementoLista);
     };
 };
+
+function sortearAmigo() {
+    if (listaAmigos.length == 0) {
+        alert("Error: La lista esta vacía.");
+    } else {
+        console.log(listaAmigos.length);
+        let sorteo = Math.floor(Math.random() * listaAmigos.length);
+        let textoResultado = document.getElementById("resultado");
+        textoResultado.innerHTML = listaAmigos[sorteo];
+    };
+};
