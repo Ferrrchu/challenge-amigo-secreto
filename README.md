@@ -1,4 +1,5 @@
 # Challenge: Amigo Secreto
+<img width="1600" height="329" alt="AS" src="https://github.com/user-attachments/assets/f6735d6f-1d14-41f7-a6d2-c19875c68ecd" />
 
 ## Descripción del Proyecto:
 
